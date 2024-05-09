@@ -1,0 +1,16 @@
+
+
+#ifndef TINYSF_PRECISION_H
+#define TINYSF_PRECISION_H
+
+// Floating Point Precision
+#define TINYSF_SPECIAL      1
+#define TINYSF_SIGNED       1
+#define TINYSF_DENORMALIZED 0
+#define TINYSF_ROUND_EVEN   1
+#define TINYSF_SIGN_BITS    1
+#define TINYSF_EXP_BITS     4
+#define TINYSF_FRAC_BITS    7
+#define TINYSF_TOTAL_BITS   TINYSF_SIGN_BITS + TINYSF_EXP_BITS + TINYSF_FRAC_BITS
+
+#endif
